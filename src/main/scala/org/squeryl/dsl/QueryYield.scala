@@ -82,4 +82,8 @@ trait QueryYield[R] {
     joinExpressions = Seq(() => lb1, () => lb2, () => lb3, () => lb4, () => lb5, () => lb6, () => lb7, () => lb8, () => lb9)
     new JoinQueryYield9(this)
   }
+  def on(lb1: =>LogicalBoolean, lb2: =>LogicalBoolean, lb3: =>LogicalBoolean, lb4: =>LogicalBoolean, lb5: =>LogicalBoolean, lb6: =>LogicalBoolean, lb7: =>LogicalBoolean, lb8: =>LogicalBoolean, lb9: =>LogicalBoolean, lb10: =>LogicalBoolean) = {
+    joinExpressions = Seq(() => lb1, () => lb2, () => lb3, () => lb4, () => lb5, () => lb6, () => lb7, () => lb8, () => lb9, () => lb10)
+    new JoinQueryYield10(this)
+  }
 }
