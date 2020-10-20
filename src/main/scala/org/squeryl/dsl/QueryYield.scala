@@ -86,4 +86,25 @@ trait QueryYield[R] {
     joinExpressions = Seq(() => lb1, () => lb2, () => lb3, () => lb4, () => lb5, () => lb6, () => lb7, () => lb8, () => lb9, () => lb10)
     new JoinQueryYield10(this)
   }
+  def on(lb1: =>LogicalBoolean, lb2: =>LogicalBoolean, lb3: =>LogicalBoolean, lb4: =>LogicalBoolean, lb5: =>LogicalBoolean, lb6: =>LogicalBoolean, lb7: =>LogicalBoolean, lb8: =>LogicalBoolean, lb9: =>LogicalBoolean, lb10: =>LogicalBoolean, lb11: =>LogicalBoolean) = {
+    joinExpressions = Seq(() => lb1, () => lb2, () => lb3, () => lb4, () => lb5, () => lb6, () => lb7, () => lb8, () => lb9, () => lb10, () => lb11)
+    new JoinQueryYield11(this)
+  }
+
+  def on(lb1: =>LogicalBoolean, lb2: =>LogicalBoolean, lb3: =>LogicalBoolean, lb4: =>LogicalBoolean, lb5: =>LogicalBoolean, lb6: =>LogicalBoolean, lb7: =>LogicalBoolean, lb8: =>LogicalBoolean, lb9: =>LogicalBoolean, lb10: =>LogicalBoolean, lb11: =>LogicalBoolean, lb12: =>LogicalBoolean) = {
+    joinExpressions = Seq(() => lb1, () => lb2, () => lb3, () => lb4, () => lb5, () => lb6, () => lb7, () => lb8, () => lb9, () => lb10, () => lb11, () => lb12)
+    new JoinQueryYield12(this)
+  }
+  def on(lb1: =>LogicalBoolean, lb2: =>LogicalBoolean, lb3: =>LogicalBoolean, lb4: =>LogicalBoolean, lb5: =>LogicalBoolean, lb6: =>LogicalBoolean, lb7: =>LogicalBoolean, lb8: =>LogicalBoolean, lb9: =>LogicalBoolean, lb10: =>LogicalBoolean, lb11: =>LogicalBoolean, lb12: =>LogicalBoolean, lb13: =>LogicalBoolean) = {
+    joinExpressions = Seq(() => lb1, () => lb2, () => lb3, () => lb4, () => lb5, () => lb6, () => lb7, () => lb8, () => lb9, () => lb10, () => lb11, () => lb12, () => lb13)
+    new JoinQueryYield13(this)
+  }
+  def on(lb1: =>LogicalBoolean, lb2: =>LogicalBoolean, lb3: =>LogicalBoolean, lb4: =>LogicalBoolean, lb5: =>LogicalBoolean, lb6: =>LogicalBoolean, lb7: =>LogicalBoolean, lb8: =>LogicalBoolean, lb9: =>LogicalBoolean, lb10: =>LogicalBoolean, lb11: =>LogicalBoolean, lb12: =>LogicalBoolean, lb13: =>LogicalBoolean, lb14: =>LogicalBoolean) = {
+    joinExpressions = Seq(() => lb1, () => lb2, () => lb3, () => lb4, () => lb5, () => lb6, () => lb7, () => lb8, () => lb9, () => lb10, () => lb11, () => lb12, () => lb13, () => lb14)
+    new JoinQueryYield14(this)
+  }
+  def on(lb1: =>LogicalBoolean, lb2: =>LogicalBoolean, lb3: =>LogicalBoolean, lb4: =>LogicalBoolean, lb5: =>LogicalBoolean, lb6: =>LogicalBoolean, lb7: =>LogicalBoolean, lb8: =>LogicalBoolean, lb9: =>LogicalBoolean, lb10: =>LogicalBoolean, lb11: =>LogicalBoolean, lb12: =>LogicalBoolean, lb13: =>LogicalBoolean, lb14: =>LogicalBoolean, lb15: =>LogicalBoolean) = {
+    joinExpressions = Seq(() => lb1, () => lb2, () => lb3, () => lb4, () => lb5, () => lb6, () => lb7, () => lb8, () => lb9, () => lb10, () => lb11, () => lb12, () => lb13, () => lb14, () => lb15)
+    new JoinQueryYield15(this)
+  }
 }
